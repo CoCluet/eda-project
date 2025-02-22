@@ -1,0 +1,28 @@
+# Ignore IDE/editor files
+.vscode/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-specific files
+.env
+.venv/
+venv/
+ENV/
+env.yml
+env/
+
+# Ignore data files (if they are large or sensitive)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
